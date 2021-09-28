@@ -40,7 +40,10 @@ and open the template in the editor.
             
             
         }
-        
+     
+        setlocale(LC_TIME, "hungarian");
+        echo  'Ma' . " " . strftime('%A');
+        echo '<br>';
         
         Datum(date("l"));
         echo '<br>';
@@ -128,10 +131,6 @@ and open the template in the editor.
         }
         
         sakkTabla();
-        
-       
- 
-         
         ?> 
            
     </body>

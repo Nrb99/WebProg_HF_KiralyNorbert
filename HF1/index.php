@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-16">
         <title></title>
     </head>
     <body>
@@ -131,6 +131,8 @@ and open the template in the editor.
         }
         
         sakkTabla();
+        
+        
         ?> 
            
     </body>
